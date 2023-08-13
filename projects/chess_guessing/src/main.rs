@@ -8,4 +8,7 @@ fn main() {
         .read_line(&mut guess)
         .expect("Failed to read the line :(");
     println!("Imagine guessing: {guess}"); // The Best opening is 1.Ke2!!
+    if guess == "1.Ke2"{
+        println!("Based");
+    }
 }
