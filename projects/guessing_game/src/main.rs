@@ -16,6 +16,6 @@ fn main() {
     
     let guess: u32 = match guess.trim().parse().expect("Please type a number!");
     
-    println!("Your guess was: {guess}");
+    
     
 }
