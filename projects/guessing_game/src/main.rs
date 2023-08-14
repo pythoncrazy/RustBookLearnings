@@ -14,6 +14,8 @@ fn main() {
         .read_line(&mut guess)
         .expect("Put a vaild number pls!");
     
+    let guess: u32 = match guess.trim().parse().expect("Please type a number!");
+    
     println!("Your guess was: {guess}");
     
 }
