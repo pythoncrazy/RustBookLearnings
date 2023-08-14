@@ -13,6 +13,7 @@ fn main() {
     io::stdin()
         .read_line(&mut guess)
         .expect("Put a vaild number pls!");
+    
     println!("Your guess was: {guess}");
     
 }
