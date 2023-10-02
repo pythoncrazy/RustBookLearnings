@@ -11,4 +11,8 @@ fn main() {
     let radius: f64 = 5.0;
     let area: f64 = PI * f64::powf(radius, 2.0);
     println!("The area of a circle with radius 4 is: {area}");
+
+    //Section on Booleans
+
+    let t: bool = true;
 }
