@@ -15,4 +15,5 @@ fn main() {
     //Section on Booleans
 
     let t: bool = true;
+    println!("The boolean is {t}");
 }
