@@ -15,5 +15,5 @@ fn main() {
     //Section on Booleans
 
     let t: bool = true;
-    println!("The boolean is {t}");
+    println!("The boolean is {t}"); // So it is possible to print the boolean directly, pretty cool
 }
