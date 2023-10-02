@@ -6,6 +6,7 @@ fn main() {
     println!("x is now: {x}");
     const PI: f64 = 3.14159; //It does go on forever, but nobody asked buddy. quit yappin buckaroo
     let mut radius: f64 = 4.000;
+    let mut radius: f64 = 5.000;
     let area: f64 = PI * f64::powf(radius,2.0);
     println!("The area of a circle with radius 4 is: {area}");
 }
